@@ -38,4 +38,29 @@ img {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.counter-div {
+  width: 40rem;
+  border: 1px solid var(--grey);
+  padding: 1rem;
+  background-color: var(--light-blue);
+  color: var(--white);
+  text-align: center;
+  border-radius: 5px;
+}
+.counter-div > *{
+  margin-bottom: 2rem;
+}
+
+.number{
+  font-size: 4rem;
+}
+
+.generate{
+  background-color: aqua;
 }
