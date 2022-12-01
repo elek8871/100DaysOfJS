@@ -10,3 +10,4 @@ const generateNumber =()=>{
 }
 
 button.addEventListener("click", generateNumber)
+
