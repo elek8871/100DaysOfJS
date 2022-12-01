@@ -13,6 +13,7 @@ const showModal = (e)=>{
 const hideModal = ()=>{
     modal.style.display = "none"
 }
+
 button.addEventListener("click", showModal)
 close.addEventListener("click", hideModal)
 modal.addEventListener("click", hideModal)
